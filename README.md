@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    I'd tell them that "semantic HTML" provides meaning to thier web pages instead of just strictly making them look better. For an example I'd tell them that the <b> tag isn't meaningful, it only provides a visual effect. <section>, on the other hand, provides no visual effect but gives the page meaning (in this case, dividing our page into meaningful sections).
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    display: block; takes up a whole horizontal slice of the page. They can have a width, but other elements can't side beside them. 
+    display: inline; can't have a width or height, and can only have padding/margin set on the left or right. 
 
 3. What are the 4 areas of the box model?
 
+    Margin, border, padding and content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    It works on the "cross axis". For row flex-direction, this is the horizontal axis. For column flex-direction, this is the vertical axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is extremely valuable to development teams for the following reasons:
+    - Commits: Changes are broken up into many small "commits", which can be reverted to if something goes wrong.
+    - Collaboration: Git does its best to seamlessly merge changes while developers are working on the same thing at the same time, and when a conflict occurs, git offers solutions to manage that.
+    - Backup: Git repositories can, and usually are, stored on a cloud hosting service dedicated to repos, like GitHub. This makes sure that if the a developer's harddrive dies, only progress that hasn't been commited is lost. That's why it's a good idea for even solo developers to use git and GitHub.
+    - Version Control: Git has many features to manage versions. Branching is an important one. A developer can branch off the main branch to try to add a feature. This new branch is a conpletely independant copy of the code, and any damaging changes won't effect the main branch. Later, if the new feature is successful, the branch can be merged back to the master branch.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
